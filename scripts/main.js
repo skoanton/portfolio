@@ -18,10 +18,6 @@ const genreateCodeSnippet = () =>{
     
 
 
-    
-
-}
-
 const genreateConsoleText = () =>{
     const consoleTextEl = document.getElementById("consoleText");
     codeTexts.forEach(text => {
