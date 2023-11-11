@@ -3,9 +3,8 @@ const codeText2 = "This website is created to show my work and what I can bring 
 const codeTexts = [codeText1,codeText2];
 
 
-
-
 const genreateCodeSnippet = () =>{
+    console.log("loading");
     const codeList = document.getElementById("codeList");
 
     codeTexts.forEach(text => {
@@ -27,5 +26,10 @@ const genreateConsoleText = () =>{
     });
 }
 
-genreateCodeSnippet();
-genreateConsoleText();
+const loadText = () => {
+
+    genreateCodeSnippet();
+    genreateConsoleText();
+}
+
+window.addEventListener("load",loadText);
