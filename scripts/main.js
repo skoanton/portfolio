@@ -4,7 +4,6 @@ const codeTexts = [codeText1,codeText2];
 
 
 const genreateCodeSnippet = () =>{
-    console.log("loading");
     const codeList = document.getElementById("codeList");
 
     codeTexts.forEach(text => {
