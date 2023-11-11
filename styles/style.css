@@ -23,7 +23,7 @@ body{
 main{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: max-content;
+    grid-auto-rows: max-content;
     gap: 1rem;
     grid-column: 2/4;
 }
@@ -40,14 +40,16 @@ picture{
 }
 .console-text{
     background-color: #222121;
-    padding: 1rem;
+    padding: 2rem;
     grid-column: span 3;
+    height: max-content;
 }
 
 .code-snippet{
     font-size: 0.5rem;
     grid-column: span 3;
     padding: 1rem;
+    height: max-content;
 
 }
 
