@@ -68,9 +68,6 @@ picture{
 
 }
 
-.console-color{
-    color: #DFBC3D;
-}
 .log-color{
     color: #8BC1DF;
 }
@@ -78,12 +75,6 @@ picture{
 .parentheses-color{
     color: #F6924A;
 }
-
-.code-text-color{
-    color: #58B061;
-}
-
-
 
 
 /* Header and Main Nav*/
@@ -101,6 +92,7 @@ header{
 
 .title{
     font-size: 4rem;
+    text-align: center;
 }
 
 .title,a{
