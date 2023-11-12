@@ -50,6 +50,7 @@ picture{
 .console-text{
     color: #FFFFFF;
     font-family: 'Roboto',sans-serif;
+    text-decoration: underline;
     display: block;
 }
 
@@ -107,6 +108,62 @@ header{
     font-family: 'Press Start 2P', sans-serif;
 }
 
+/* Form */
+
+form{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+/* Grid*/
+
+#name,#email{
+    grid-column: 1;
+}
+#message{
+    grid-column: 2/5;
+    grid-row: 1/5;
+}
+#submitBtn{
+    grid-column: 4;
+    grid-row: 5;
+}
+
+/* Styling */
+
+textarea{
+    resize: none;
+}
+
+textarea,input{
+    color: #FFFFFF;
+    font-family: 'Roboto',sans-serif;
+   background-color: #504E4E;
+}
+textarea::placeholder,input::placeholder{
+    color:#cccaca;
+    font-style: italic;
+}
+
+input:focus,textarea:focus{
+    outline-width: 1px;
+}
+input:focus::placeholder,textarea:focus::placeholder{
+    color: transparent;
+}
+
+#submitBtn{
+    border: none;
+    background-color: transparent;
+    color: #58B061;
+    font-family: 'Press Start 2P', sans-serif;
+}
+#submitBtn:hover{
+    color: #FFFFFF;
+    cursor: pointer; /* Does not show pointer if not here */
+}
 
 /* Utilites */
 

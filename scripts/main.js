@@ -3,11 +3,11 @@ const codeText2 = "This website is created to show my work and what I can bring 
 const codeTexts = [codeText1, codeText2];
 
 const project1 = {
-    pName: "project1",
+    pName: "Google search function module",
     link: "#"
 };
 const project2 = {
-    pName: "project2",
+    pName: "Facebook chat function",
     link: "#"
 };
 const projects = [project1, project2];
