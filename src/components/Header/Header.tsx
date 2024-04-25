@@ -1,12 +1,8 @@
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 
 import { AlignJustify } from "lucide-react";
@@ -19,7 +15,7 @@ type HeaderProps = {};
 const Header = ({}: HeaderProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   return (
-    <header className="bg-primary w-screen border">
+    <header className="bg-primary w-screen">
       <Button onClick={() => setIsMenuOpen(!isMenuOpen)}>
         <AlignJustify />
       </Button>
