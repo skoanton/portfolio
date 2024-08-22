@@ -8,7 +8,7 @@ export default function Hero({}: HeroProps) {
       <h2 className="text-xl text-bold">Hello! I´m Anton.</h2>
       <h1 className="text-7xl font-bold">
         Designing digital product with emphasis on{" "}
-        <span className="text-gray-300">visual design</span>
+        <span className="text-secondary">visual design</span>
       </h1>
       <div className="flex flex-col-reverse mt-5 gap-5 sm:flex-row sm:justify-between ">
         <Button className="rounded-xl outline-4">Lets Talk</Button>
