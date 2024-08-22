@@ -10,7 +10,6 @@ export default function Home() {
       <main className="flex min-h-screen flex-col gap-5 sm:gap-10">
         <Hero />
         <SelectedWork />
-        <hr className="border border-black"></hr>
       </main>
     </>
   );
